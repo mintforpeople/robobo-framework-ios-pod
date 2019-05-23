@@ -1,0 +1,16 @@
+PODS:
+  - robobo-framework-ios-pod (0.1.0)
+
+DEPENDENCIES:
+  - robobo-framework-ios-pod (from `../`)
+
+EXTERNAL SOURCES:
+  robobo-framework-ios-pod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  robobo-framework-ios-pod: 23f3c04868469c1eb49cdd7dda44f8e5658a2acc
+
+PODFILE CHECKSUM: bac21cde6500ba2cf3a0ecec12ea644b7aa27baa
+
+COCOAPODS: 1.6.1

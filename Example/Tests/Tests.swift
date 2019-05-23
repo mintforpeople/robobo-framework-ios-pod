@@ -1,10 +1,11 @@
 import XCTest
-import robobo-framework-ios-pod
+import robobo_framework_ios_pod
 
 class Tests: XCTestCase {
-    
+    var manager:RoboboManager!
     override func setUp() {
         super.setUp()
+        manager = RoboboManager()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
@@ -16,6 +17,7 @@ class Tests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
+        manager.log("AYYYYLMAO")
     }
     
     func testPerformanceExample() {

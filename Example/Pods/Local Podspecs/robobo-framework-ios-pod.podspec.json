@@ -1,0 +1,23 @@
+{
+  "name": "robobo-framework-ios-pod",
+  "version": "0.1.0",
+  "summary": "Robobo Framework base library.",
+  "swift_version": "4.2",
+  "description": "Robobo Framework base library.",
+  "homepage": "https://github.com/mintforpeople/robobo-framework-ios-pod",
+  "license": {
+    "type": "LGPLv3",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Luis Felipe Llamas Luaces": "luis.llamas@mintforpeople.com"
+  },
+  "source": {
+    "git": "https://github.com/mintforpeople/robobo-framework-ios-pod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "robobo-framework-ios-pod/Classes/**/*"
+}
