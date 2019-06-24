@@ -2,7 +2,7 @@
   "name": "robobo-framework-ios-pod",
   "version": "0.1.0",
   "summary": "Robobo Framework base library.",
-  "swift_version": "4.2",
+  "swift_versions": "4.2",
   "description": "Robobo Framework base library.",
   "homepage": "https://github.com/mintforpeople/robobo-framework-ios-pod",
   "license": {
@@ -19,5 +19,6 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "robobo-framework-ios-pod/Classes/**/*"
+  "source_files": "robobo-framework-ios-pod/Classes/**/*",
+  "swift_version": "4.2"
 }

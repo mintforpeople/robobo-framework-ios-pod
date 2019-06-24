@@ -6,7 +6,7 @@
 //  Copyright © 2019 mintforpeople. All rights reserved.
 //
 
-enum FrameworkError: Error {
+public enum FrameworkError: Error {
     case moduleNotFound
     case classNotFound
     case internalError

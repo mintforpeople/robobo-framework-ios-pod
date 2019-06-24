@@ -21,6 +21,7 @@ public class RoboboManager: NSObject {
         self.logger = Logger()
     }
     
+
     public func isStartedUp() -> Bool{
         return self.state == RoboboManagerState.RUNNING
     }
@@ -32,6 +33,15 @@ public class RoboboManager: NSObject {
     public func log(_ text:String, _ logLevel:LogLevel = LogLevel.DEBUG){
         logger.log(text, logLevel)
     }
+    
+    public func suscribeLogger(_ logDelegate:IRoboboLogDelegate){
+        logger.suscribe(logDelegate)
+    }
+    
+    public func unsuscribeLogger(_ logDelegate:IRoboboLogDelegate){
+        logger.unsuscribe(logDelegate)
+    }
+    
     public func startup () throws{
         if (state == RoboboManagerState.CREATED){
             do {

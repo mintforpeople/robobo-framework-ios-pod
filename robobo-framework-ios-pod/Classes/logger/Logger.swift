@@ -10,19 +10,30 @@
 
 class Logger: NSObject {
 
+    public var delegates: [IRoboboLogDelegate]!
+
     public func log(_ text:String , _ logLevel: LogLevel = LogLevel.DEBUG){
+        var logmsg:String = ""
         switch logLevel {
-        case LogLevel.VERBOSE:
-            print("❕ \(text)")
-        case LogLevel.INFO:
-            print("✔️ \(text)")
-        case LogLevel.DEBUG:
-            print("🔷 \(text)")
-        case LogLevel.WARNING:
-            print("🔶 \(text)")
-        case LogLevel.ERROR:
-            print("❌ \(text)")
+        case .VERBOSE:
+            logmsg = "❕ \(text)"
+        case .INFO:
+            logmsg = "✔️ \(text)"
+        case .DEBUG:
+            logmsg = "🔷 \(text)"
+        case .WARNING:
+            logmsg = "🔶 \(text)"
+        case .ERROR:
+            logmsg = "❌ \(text)"
         
         }
+        print(logmsg)
+    }
+    
+    public func suscribe(_ delegate: IRoboboLogDelegate){
+        delegates.append(delegate)
+    }
+    public func unsuscribe(_ delegate: IRoboboLogDelegate){
+        delegates = delegates.filter {!($0 === delegate)}
     }
 }

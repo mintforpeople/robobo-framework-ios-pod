@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  robobo-framework-ios-pod: 23f3c04868469c1eb49cdd7dda44f8e5658a2acc
+  robobo-framework-ios-pod: 7d08ced5ba6f935ddb9bf2cf69136e8aebe7387a
 
 PODFILE CHECKSUM: bac21cde6500ba2cf3a0ecec12ea644b7aa27baa
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.0
