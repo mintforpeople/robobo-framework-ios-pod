@@ -32,6 +32,9 @@ class Logger: NSObject {
         
         }
         print(logmsg)
+        for delegate in delegates{
+            delegate.onLog(logmsg)
+        }
     }
     
     public func suscribe(_ delegate: IRoboboLogDelegate){
