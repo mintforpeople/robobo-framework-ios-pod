@@ -11,6 +11,10 @@
 class Logger: NSObject {
 
     public var delegates: [IRoboboLogDelegate]!
+    
+    override init() {
+        delegates = [IRoboboLogDelegate]()
+    }
 
     public func log(_ text:String , _ logLevel: LogLevel = LogLevel.DEBUG){
         var logmsg:String = ""
