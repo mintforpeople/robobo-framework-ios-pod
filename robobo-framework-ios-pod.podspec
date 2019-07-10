@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'robobo-framework-ios-pod'
-s.version          = '0.1.1
+s.version          = '0.1.2
 '
 s.summary          = 'Robobo Framework base library.'
 s.swift_version    = '4.2'

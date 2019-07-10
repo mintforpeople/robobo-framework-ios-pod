@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol IRoboboLogDelegate: NSObject {
+public protocol IRoboboLogDelegate: NSObjectProtocol {
     func onLog(_ log:String)
     
 }
