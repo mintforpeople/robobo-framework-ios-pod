@@ -21,7 +21,7 @@ Luis Felipe Llamas Luaces, lfllamas93@gmail.com
 
 ## License
 
-robobo-remote-control-ios is available under the Apache 2.0 license. See the LICENSE file for more info.
+robobo-framework-ios-pod is available under the Apache 2.0 license. See the LICENSE file for more info.
 
 ***
 <!-- 
