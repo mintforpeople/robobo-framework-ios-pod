@@ -1,5 +1,7 @@
 # robobo-framework-ios-pod
 
+The Robobo Framework is a very light framework that follows a modular architecture where each functionality of the robot is implemented a new module, and where the framework is only in charge of loading and managing the modules.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
