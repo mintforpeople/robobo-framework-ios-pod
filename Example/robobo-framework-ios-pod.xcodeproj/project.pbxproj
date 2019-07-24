@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A0EBE45122E618180053036D /* DummyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBE45022E618180053036D /* DummyModule.swift */; };
+		A0EBE45322E619990053036D /* DummyModule2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EBE45222E619990053036D /* DummyModule2.swift */; };
+		A0EBE45522E61E0C0053036D /* modules.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0EBE45422E61E0C0053036D /* modules.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E2C6D0F82614ACA57FE22B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0EBE45022E618180053036D /* DummyModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModule.swift; sourceTree = "<group>"; };
+		A0EBE45222E619990053036D /* DummyModule2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyModule2.swift; sourceTree = "<group>"; };
+		A0EBE45422E61E0C0053036D /* modules.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = modules.plist; sourceTree = "<group>"; };
 		B1E3AB4D87345EE3B6CC1F60 /* robobo-framework-ios-pod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "robobo-framework-ios-pod.podspec"; path = "../robobo-framework-ios-pod.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE750E85B49F67F9F9BD60F6 /* Pods_robobo_framework_ios_pod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_robobo_framework_ios_pod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1760DBBBD7B3B257CCE6957 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -119,6 +125,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				A0EBE45022E618180053036D /* DummyModule.swift */,
+				A0EBE45222E619990053036D /* DummyModule2.swift */,
+				A0EBE45422E61E0C0053036D /* modules.plist */,
 			);
 			name = "Example for robobo-framework-ios-pod";
 			path = "robobo-framework-ios-pod";
@@ -247,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EBE45522E61E0C0053036D /* modules.plist in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -333,6 +343,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A0EBE45322E619990053036D /* DummyModule2.swift in Sources */,
+				A0EBE45122E618180053036D /* DummyModule.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

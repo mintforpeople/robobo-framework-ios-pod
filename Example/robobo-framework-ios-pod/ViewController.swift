@@ -25,12 +25,19 @@
 //
 
 import UIKit
+import robobo_framework_ios_pod
 
 class ViewController: UIViewController {
-
+    var manager:RoboboManager!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        manager = RoboboManager()
+        do{
+            try manager.startup()
+        } catch {
+            print(error)
+        }
     }
 
     override func didReceiveMemoryWarning() {
