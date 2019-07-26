@@ -1,6 +1,8 @@
 # robobo-framework-ios-pod
 
+
 The robobo framework is the base library to build applications with the Robobo Robot. The framework is designed in a modular way, new functionalities are added through modules that implement the protocol defined by the ```IModule.swift``` class. The core of the framework manages the lifecycle of the Robobo application, loading all the modules defined in the ```modules.plist``` file in order and stopping them when the app shuts down. The manager also provides a logging system with different log levels that can be accessed by another classes implementing the ```IRoboboLogDelegate``` protocol
+
 
 ## Example
 
