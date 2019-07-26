@@ -99,7 +99,7 @@ it, simply add the following line to your Podfile:
 pod 'robobo-framework-ios-pod'
 ```
 
-Also add the following lines to the beginning of `your Podfile, to allow the download of dependencies through our private Podspec repository:
+Also add the following lines to the beginning of your Podfile, to allow the download of dependencies through our private Podspec repository:
 
 ```ruby
 source "https://github.com/mintforpeople/mint-podspec-repo.git"
