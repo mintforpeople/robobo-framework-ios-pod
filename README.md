@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 The example shows how the robobo framework is instanced and how the modules are loaded.
 
-In the ```ViewController.swift``` file is demonstarted how the framework is instantiated:
+In the ```ViewController.swift``` file is demonstrated how the framework is instantiated:
 
 ```swift
 override func viewDidLoad() {
