@@ -69,7 +69,7 @@ var dummy1: DummyModule!
 
 ```
 
-To load the modules form the manager, they must be defined on the ```modules.plist``` file with the following convention:
+To load the modules from the manager, they must be defined on the ```modules.plist``` file with the following convention:
 
 Key: LoadNumber + dot + Name to be referenced on load
 
