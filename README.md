@@ -88,8 +88,6 @@ Value: package name + name of the class implementing the module (not the interfa
 </plist>
 ```
 
-## Requirements
-
 ## Installation
 
 robobo-framework-ios-pod is available through [CocoaPods](https://cocoapods.org). To install
