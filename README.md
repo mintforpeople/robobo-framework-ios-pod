@@ -112,7 +112,7 @@ import robobo_framework_ios_pod
 
 ## Author
 
-Luis Felipe Llamas Luaces, lfllamas93@gmail.com
+Luis Felipe Llamas Luaces, luis.llamas@mintforpeople.com
 
 ## License
 
